@@ -1,88 +1,94 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfólio de Dados</title>
+    <title>Futuristic Portfolio</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>Portfólio de Fabio Pereira</h1>
-        <nav>
-            <ul>
-                <li><a href="#about">Sobre</a></li>
-                <li><a href="#projects">Projetos</a></li>
-                <li><a href="#certificates">Certificados</a></li>
-                <li><a href="#contact">Contato</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section id="about">
-            <h2>Sobre Mim</h2>
-            <img src="https://github.com/FabioPereira445/Fabio.github.io/blob/main/images/fotoperfil.jpg" alt="Foto de Perfil" class="profile-pic">
-            <p>Sou um profissional de dados apaixonado por transformar dados em insights valiosos. Com experiência em análise de dados, visualização e machine learning, estou sempre em busca de novos desafios.</p>
-        </section>
-        <section id="projects">
-            <h2>Projetos</h2>
-            <div class="project">
-                <img src="project1.jpg" alt="Imagem do Projeto 1">
-                <h3>Projeto 1</h3>
-                <p>Descrição do projeto aqui.</p>
-                <a href="https://github.com/seu-usuario/projeto1" target="_blank">Ver no GitHub</a>
+    <div class="container">
+        <aside class="sidebar">
+            <div class="profile">
+                <img src="your-photo.jpg" alt="Your Photo">
+                <h1>Your Name</h1>
+                <a href="https://github.com/yourusername" target="_blank">GitHub</a>
+                <a href="your-cv.pdf" target="_blank">Currículo</a>
             </div>
-            <div class="project">
-                <img src="project2.jpg" alt="Imagem do Projeto 2">
-                <h3>Projeto 2</h3>
-                <p>Descrição do projeto aqui.</p>
-                <a href="https://github.com/seu-usuario/projeto2" target="_blank">Ver no GitHub</a>
-            </div>
-            <div class="project">
-                <img src="project3.jpg" alt="Imagem do Projeto 3">
-                <h3>Projeto 3</h3>
-                <p>Descrição do projeto aqui.</p>
-                <a href="https://github.com/seu-usuario/projeto3" target="_blank">Ver no GitHub</a>
-            </div>
-            <div class="project">
-                <img src="project4.jpg" alt="Imagem do Projeto 4">
-                <h3>Projeto 4</h3>
-                <p>Descrição do projeto aqui.</p>
-                <a href="https://github.com/seu-usuario/projeto4" target="_blank">Ver no GitHub</a>
-            </div>
-        </section>
-        <section id="certificates">
-            <h2>Certificados</h2>
-            <div class="certificate">
-                <img src="certificate1.jpg" alt="Certificado 1">
-                    <p>Descrição  aqui.</p>
-            </div>
-            <div class="certificate">
-                <img src="certificate2.jpg" alt="Certificado 2">
-               <p>Descrição  aqui.</p>
-            </div>
-            <!-- Adicione mais certificados conforme necessário -->
-          <div class="certificate">
-                <img src="images/certificado1.jpeg" alt="Certificado 3">
-                    <p>Descrição  aqui.</p>
-            </div>
-            <div class="certificate">
-                <img src="certificate2.jpg" alt="Certificado 4">
-               <p>Descrição  aqui.</p>
-            </div>
-        </section>
-        <section id="contact">
-            <h2>Contato</h2>
-            <p>Entre em contato comigo através do email: <a href="mailto:fabioalves.js15@gmail.com">fabioalves.js15@gmail.com </p>
-            <div class="social-links">
-                <a href="https://www.linkedin.com/in/fabio--pereira" target="_blank">LinkedIn</a>
-                <a href="https://github.com/FabioPereira445" target="_blank">GitHub</a>
-                <a href="mailto:fabioalves.js15@gmail.com">Gmail</a>
-            </div>
-        </section>
-    </main>
-    <footer>
-        <p>© 2024 -Fabio Pereira. Todos os direitos reservados.</p>
-    </footer>
+            <nav>
+                <ul>
+                    <li><a href="#about">Sobre Mim</a></li>
+                    <li><a href="#projects">Projetos</a></li>
+                    <li><a href="#certificates">Certificados</a></li>
+                    <li><a href="#social">Redes Sociais</a></li>
+                </ul>
+            </nav>
+            <button onclick="window.location.href='#'">Início</button>
+        </aside>
+        <main class="content">
+            <section id="about">
+                <h2>Sobre Mim</h2>
+                <p>Descrição sobre você.</p>
+            </section>
+            <section id="projects">
+                <h2>Projetos</h2>
+                <div class="project-grid">
+                    <div class="project">
+                        <img src="project1.jpg" alt="Project 1">
+                        <h3>Projeto 1</h3>
+                        <p>Descrição do projeto 1.</p>
+                    </div>
+                    <div class="project">
+                        <img src="project2.jpg" alt="Project 2">
+                        <h3>Projeto 2</h3>
+                        <p>Descrição do projeto 2.</p>
+                    </div>
+                    <div class="project">
+                        <img src="project3.jpg" alt="Project 3">
+                        <h3>Projeto 3</h3>
+                        <p>Descrição do projeto 3.</p>
+                    </div>
+                    <div class="project">
+                        <img src="project4.jpg" alt="Project 4">
+                        <h3>Projeto 4</h3>
+                        <p>Descrição do projeto 4.</p>
+                    </div>
+                </div>
+            </section>
+            <section id="certificates">
+                <h2>Certificados</h2>
+                <div class="certificate-grid">
+                    <div class="certificate">
+                        <img src="certificate1.jpg" alt="Certificate 1">
+                        <h3>Certificado 1</h3>
+                        <p>Descrição do certificado 1.</p>
+                    </div>
+                    <div class="certificate">
+                        <img src="certificate2.jpg" alt="Certificate 2">
+                        <h3>Certificado 2</h3>
+                        <p>Descrição do certificado 2.</p>
+                    </div>
+                    <div class="certificate">
+                        <img src="certificate3.jpg" alt="Certificate 3">
+                        <h3>Certificado 3</h3>
+                        <p>Descrição do certificado 3.</p>
+                    </div>
+                    <div class="certificate">
+                        <img src="certificate4.jpg" alt="Certificate 4">
+                        <h3>Certificado 4</h3>
+                        <p>Descrição do certificado 4.</p>
+                    </div>
+                </div>
+            </section>
+            <section id="social">
+                <h2>Redes Sociais</h2>
+                <ul>
+                    <li><a href="https://www.linkedin.com/in/yourusername" target="_blank">LinkedIn</a></li>
+                    <li><a href="https://github.com/yourusername" target="_blank">GitHub</a></li>
+                    <li><a href="mailto:your-email@gmail.com">Gmail</a></li>
+                </ul>
+            </section>
+        </main>
+    </div>
 </body>
 </html>
