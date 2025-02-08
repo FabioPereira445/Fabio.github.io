@@ -73,7 +73,7 @@ section {
 
 .project-grid, .certificate-grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 20px;
 }
 
@@ -85,7 +85,7 @@ section {
 }
 
 .project img, .certificate img {
-    width: 50%;
+    width: 100%;
     height: min-content;
     border-radius: 10px;
 }
