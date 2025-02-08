@@ -85,7 +85,7 @@ section {
 }
 
 .project img, .certificate img {
-    width: 100%;
+    width: 50%;
     height: min-content;
     border-radius: 10px;
 }
