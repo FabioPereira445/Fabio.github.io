@@ -1,122 +1,123 @@
-/* styles.css */
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
-    color: #ffffff;
-}
-
-.container {
-    display: flex;
-}
-
-.sidebar {
-    width: 250px;
-    background-color: #1f1f1f;
-    padding: 20px;
-    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
-}
-
-.profile {
-    text-align: center;
-}
-
-.profile img {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-}
-
-.profile h1 {
-    font-size: 24px;
-    margin: 10px 0;
-}
-
-.profile a {
-    color: #1e90ff;
-    text-decoration: none;
-    display: block;
-    margin: 5px 0;
-}
-
-nav ul {
-    list-style: none;
-    padding: 0;
-}
-
-nav ul li {
-    margin: 20px 0;
-}
-
-nav ul li a {
-    color: #ffffff;
-    text-decoration: none;
-    font-size: 18px;
-}
-
-button {
-    width: 100%;
-    padding: 10px;
-    background-color: #1e90ff;
-    border: none;
-    color: #ffffff;
-    font-size: 18px;
-    cursor: pointer;
-}
-
-button:hover {
-    background-color: #1c86ee;
-}
-
-.content {
-    flex: 1;
-    padding: 20px;
-}
-
-section {
-    margin-bottom: 40px;
-}
-
-.project-grid, .certificate-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
-}
-
-.project, .certificate {
-    background-color: #2a2a2a;
-    padding: 20px;
-    border-radius: 10px;
-    text-align: center;
-}
-
-.project img, .certificate img {
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
-}
-
-.project h3, .certificate h3 {
-    margin: 10px 0;
-    font-size: 20px;
-}
-
-.project p, .certificate p {
-    font-size: 16px;
-}
-
-#social ul {
-    list-style: none;
-    padding: 0;
-}
-
-#social ul li {
-    margin: 10px 0;
-}
-
-#social ul li a {
-    color: #1e90ff;
-    text-decoration: none;
-    font-size: 18px;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio de Dados</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <aside class="sidebar">
+            <div class="profile">
+                <img src="https://github.com/FabioPereira445/Fabio.github.io/blob/main/images/fotoperfil.jpg?raw=true" alt="Sua Foto" width="600" height="600">
+                <h1>Fabio Pereira</h1>
+                <div id="social">
+                    <ul>
+                        <li><a href="https://github.com/FabioPereira445" target="_blank"><img src="https://github.com/FabioPereira445/Fabio.github.io/blob/main/images/github%20(2).png?raw=true" alt="GitHub"></a></li>
+                        <li><a href="https://www.linkedin.com/in/fabio--pereira" target="_blank"><img src="https://github.com/FabioPereira445/Fabio.github.io/blob/main/images/linkedin%20(2).png?raw=true" alt="LinkedIn"></a></li>
+                        <li><a href="your-cv.pdf" target="_blank"><img src="https://github.com/FabioPereira445/Fabio.github.io/blob/main/images/target.png?raw=true" alt="Currículo"></a></li>
+                    </ul>
+                </div>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#about">Sobre Mim</a></li>
+                    <li><a href="#projects">Projetos</a></li>
+                    <li><a href="#certificates">Certificados</a></li>
+                    <li><a href="#social">Redes Sociais</a></li>
+                </ul>
+            </nav>
+        </aside>
+        <main class="content">
+            <section id="about">
+                <h2>Sobre Mim👋</h2>
+                <p>Olá! seja bem vindo ao meu portfólio, aqui é um espaço onde compartilharei meus projetos ao longo de minha jornada como Analista de Dados. Sou Formado em Análise e Desenvolvimento de Sistemas pela Universidade Norte do Paraná-UNOPAR. Tenho Pós Graduação em Análise Sistêmica Organizacional pelo Centro de Mediadores de Brasília. Atualmente trabalho como Analista operacional de Sistema e faço o Curso de Analista de Dados pela Escola Britânica de Artes Criativas & Tecnologia-EBAC. Me considero apaixonado pela vida,nos meus momentos livres gosto de ler,sair para restaurantes,treinar musculação ou corrida e passar bons momentos com a minha família e amigos.</p>
+            </section>
+            <section id="projects">
+                <h2>Projetos em Destaque</h2>
+                <div class="project-grid">
+                    <div class="project">
+                        <img src="https://github.com/FabioPereira445/Fabio.github.io/blob/main/images/project1.jpeg?raw=true" alt="Project 1">
+                        <h3>Análise exploratória de dados de logística: Empresa Loggi</h3>
+                        <p>O projeto de análise exploratória de dados foi realizado para a empresa Loggi, uma startup brasileira de logística. O objetivo foi entender e otimizar os desafios logísticos enfrentados pela empresa, como a otimização de rotas de entrega e a alocação de pedidos em veículos com capacidade limitada.</p>
+                        <div class="project-links">
+                            <a href="https://github.com/FabioPereira445/Projeto-01/" target="_blank">GitHub</a>
+                            <a href="https://www.kaggle.com/code/fabiopereira445/pro-01-an-lise-explorat-ria-de-dados-empresa-loggi/notebook" target="_blank">Kaggle</a>
+                            <h3>Ferramentas Utilizadas</h3>
+                            <h4>Python, Jupyter, VSCode</h4>
+                            <h3>Manipulação de Dados</h3>
+                            <h4>Pandas, NumPy, GeoPandas</h4>
+                            <h3>EDA</h3>
+                            <h4>Matplotlib, Seaborn</h4>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <img src="https://github.com/FabioPereira445/Fabio.github.io/blob/main/images/project2.jpeg?raw=true" alt="Project 2">
+                        <h3>EDA e Análise de Crédito com SQL</h3>
+                        <p>O objetivo do projeto é realizar uma análise detalhada dos dados de crédito utilizando SQL para identificar padrões e insights sobre os clientes, otimizando campanhas de marketing e revisando critérios de concessão de crédito.</p>
+                        <div class="project-links">
+                            <a href="https://github.com/FabioPereira445/Projeto-3" target="_blank">GitHub</a>
+                            <a href="https://www.kaggle.com/code/fabiopereira445/projeto-3-eda-e-an-lise-de-credito-com-sql" target="_blank">Kaggle</a>
+                            <h3>Ferramentas Utilizadas</h3>
+                            <h4>Python, Jupyter, VSCode</h4>
+                            <h3>Manipulação de Dados</h4>
+                            <h4>Pandas, NumPy</h4>
+                            <h3>EDA</h3>
+                            <h4>S3 AWS Amazon, AWS Athena, SQL</h4>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <img src="https://github.com/FabioPereira445/Fabio.github.io/blob/main/images/project1_2.jpeg.png" alt="Project 3">
+                        <h3>Análise Exploratória de Dados da Covid-19</h3>
+                        <p>O objetivo principal do projeto é fornecer uma compreensão detalhada do impacto da pandemia no país até 30 de dezembro de 2021, destacando áreas críticas que precisam de intervenção e estratégias recomendadas para mitigar a disseminação do vírus.</p>
+                        <div class="project-links">
+                            <a href="https://github.com/FabioPereira445/projeto-2" target="_blank">GitHub</a>
+                            <a href="https://www.kaggle.com/code/fabiopereira445/projeto-2-covid19" target="_blank">Kaggle</a>
+                            <h3>Ferramentas Utilizadas</h3>
+                            <h4>Python, VSCode, Jupyter</h4>
+                            <h3>Manipulação de Dados</h4>
+                            <h4>Pandas, NumPy</h4>
+                            <h3>EDA</h3>
+                            <h4>Matplotlib, Seaborn</h4>
+                            <h3>Dashboard</h3>
+                            <ul>
+                                <li>Google Data Studio: <a href="https://lookerstudio.google.com/reporting/08819073-431e-4f2a-b594-16c02177d8a8" target="_blank">Link</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <img src="project4.jpg" alt="Project 4">
+                        <h3>Pipeline de Dados do Telegram</h3>
+                        <p>PÁGINA EM CONSTRUÇÃO.</p>
+                        <div class="project-links">
+                            <a href="https://github.com/FabioPereira445/project4" target="_blank">GitHub</a>
+                            <a href="https://www.kaggle.com/fabiopereira445/project4" target="_blank">Kaggle</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="certificates">
+                <h2>Certificados</h2>
+                <div class="certificate-grid">
+                    <div class="certificate">
+                        <img src="certificate1.jpg" alt="Certificate 1">
+                        <h3>Analista de Dados</h3>
+                        <p>Escola Britânica de Artes Criativas & Tecnologia.</p>
+                    </div>
+                    <div class="certificate">
+                        <img src="images/certificado_4_page-0001.jpg" alt="Certificate 2">
+                        <h3>Análise e Desenvolvimento de Sistemas</h3>
+                        <p>Universidade Norte do Paraná.</p>
+                    </div>
+                    <div class="certificate">
+                        <img src="https://github.com/FabioPereira445/Fabio.github.io/blob/main/images/certificado1.jpeg?raw=true" alt="Certificate 3">
+                        <h3>Certificado de Pandas</h3>
+                        <p>Curso de Pandas do GitHub.</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+</body>
+</html>
