@@ -1,130 +1,111 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfólio de Dados</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <div class="container">
-        <aside class="sidebar">
-            <div class="profile">
-                <img src="https://github.com/SeuUsuario/SeuRepositorio/blob/main/imagens/suafoto.jpg?raw=true" alt="Sua Foto">
-                <h1>Fabio Pereira</h1>
-                <div id="social">
-                    <ul>
-                        <li><a href="https://github.com/FabioPereira445" target="_blank"><img src="https://github.com/SeuUsuario/SeuRepositorio/blob/main/imagens/github.png?raw=true" alt="GitHub"></a></li>
-                        <li><a href="https://www.linkedin.com/in/fabio--pereira" target="_blank"><img src="https://github.com/SeuUsuario/SeuRepositorio/blob/main/imagens/linkedin.png?raw=true" alt="LinkedIn"></a></li>
-                        <li><a href="your-cv.pdf" target="_blank"><img src="https://github.com/SeuUsuario/SeuRepositorio/blob/main/imagens/curriculo.png?raw=true" alt="Currículo"></a></li>
-                    </ul>
-                </div>
-            </div>
-            <nav>
-                <ul>
-                    <li><a href="#about">Sobre Mim</a></li>
-                    <li><a href="#projects">Projetos</a></li>
-                    <li><a href="#certificates">Certificados</a></li>
-                    <li><a href="#social">Redes Sociais</a></li>
-                </ul>
-            </nav>
-        </aside>
-        <main class="content">
-            <section id="about">
-                <h2>Sobre Mim👋</h2>
-                <p>Descrição sobre você.</p>
-            </section>
-            <section id="projects">
-                <h2>Projetos em Destaque</h2>
-                <div class="project-grid">
-                    <div class="project">
-                        <img src="https://github.com/FabioPereira445/Fabio.github.io/blob/main/images/project1.jpeg?raw=true" alt="Project 1">
-                        <h3>🚚Projeto 1: Análise Exploratória de Dados em Python: Empresa Loggi</h3>
-                        <h4>Objetivo</h4>
-                        <p>O projeto de análise exploratória de dados foi realizado para a empresa Loggi, uma startup brasileira de logística. O objetivo foi entender e otimizar os desafios logísticos enfrentados pela empresa, com foco em rotas de entrega e a alocação de pedidos em veículos com capacidade limitada.</p>
-                        <h4>Ferramentas Utilizadas</h4>
-                        <p>Espaço para adicionar 3 imagens</p>
-                        <h4>Bibliotecas Python utilizadas</h4>
-                        <p>Manipulação de dados</p>
-                        <p>Espaço para 3 imagens</p>
-                        <h4>EDA</h4>
-                        <p>Espaço para 2 imagens</p>
-                        <div class="project-links">
-                            <a href="https://github.com/FabioPereira445/Projeto-01/" target="_blank">GitHub</a>
-                            <a href="https://www.kaggle.com/code/fabiopereira445/pro-01-an-lise-explorat-ria-de-dados-empresa-loggi/notebook" target="_blank">Kaggle</a>
-                        </div>
-                    </div>
-                    <div class="project">
-                        <img src="https://github.com/FabioPereira445/Fabio.github.io/blob/main/images/project2.jpeg?raw=true" alt="Project 2">
-                        <h3>Projeto 2: Análise Exploratória de Dados: Covid-19</h3>
-                        <h4>Objetivo</h4>
-                        <p>O objetivo principal do projeto é fornecer uma compreensão detalhada do impacto da pandemia no Brasil até 30 de dezembro de 2021, destacando áreas críticas que precisam de intervenção e estratégias recomendadas para mitigar a disseminação do vírus.</p>
-                        <h4>Ferramentas Utilizadas</h4>
-                        <p>Espaço para adicionar 3 imagens</p>
-                        <h4>Bibliotecas Python utilizadas</h4>
-                        <p>Manipulação de dados</p>
-                        <p>Espaço para 3 imagens</p>
-                        <h4>EDA</h4>
-                        <p>Espaço para 2 imagens</p>
-                        <div class="project-links">
-                            <a href="https://github.com/FabioPereira445/projeto-2" target="_blank">GitHub</a>
-                            <a href="https://www.kaggle.com/code/fabiopereira445/projeto-2-covid19" target="_blank">Kaggle</a>
-                        </div>
-                    </div>
-                    <div class="project">
-                        <img src="https://github.com/FabioPereira445/Fabio.github.io/blob/main/images/project3.jpeg?raw=true" alt="Project 3">
-                        <h3>Projeto 3: EDA e Análise de Crédito com SQL</h3>
-                        <h4>Objetivo</h4>
-                        <p>O objetivo do projeto é realizar uma análise detalhada dos dados de crédito utilizando SQL para identificar padrões e insights sobre os clientes, otimizando campanhas de marketing e revisando critérios de concessão de crédito.</p>
-                        <h4>Ferramentas Utilizadas</h4>
-                        <p>Espaço para adicionar 3 imagens</p>
-                        <h4>Bibliotecas Python utilizadas</h4>
-                        <p>Manipulação de dados</p>
-                        <p>Espaço para 3 imagens</p>
-                        <h4>EDA</h4>
-                        <p>Espaço para 2 imagens</p>
-                        <div class="project-links">
-                            <a href="https://github.com/FabioPereira445/Projeto-3" target="_blank">GitHub</a>
-                            <a href="https://www.kaggle.com/code/fabiopereira445/projeto-3-eda-e-an-lise-de-credito-com-sql" target="_blank">Kaggle</a>
-                        </div>
-                    </div>
-                    <div class="project">
-                        <img src="https://github.com/SeuUsuario/SeuRepositorio/blob/main/imagens/project4.jpg?raw=true" alt="Project 4">
-                        <h3>Projeto 4</h3>
-                        <p>Descrição do projeto 4.</p>
-                        <div class="project-links">
-                            <a href="https://github.com/SeuUsuario/Projeto4" target="_blank">GitHub</a>
-                            <a href="https://www.kaggle.com/SeuUsuario/Projeto4" target="_blank">Kaggle</a>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section id="certificates">
-                <h2>Certificados</h2>
-                <div class="certificate-grid">
-                    <div class="certificate">
-                        <img src="https://github.com/SeuUsuario/SeuRepositorio/blob/main/imagens/certificate1.jpg?raw=true" alt="Certificate 1">
-                        <h3>Certificado 1</h3>
-                        <p>Descrição do certificado 1.</p>
-                    </div>
-                    <div class="certificate">
-                        <img src="https://github.com/SeuUsuario/SeuRepositorio/blob/main/imagens/certificate2.jpg?raw=true" alt="Certificate 2">
-                        <h3>Certificado 2</h3>
-                        <p>Descrição do certificado 2.</p>
-                    </div>
-                    <div class="certificate">
-                        <img src="https://github.com/SeuUsuario/SeuRepositorio/blob/main/imagens/certificate3.jpg?raw=true" alt="Certificate 3">
-                        <h3>Certificado 3</h3>
-                        <p>Descrição do certificado 3.</p>
-                    </div>
-                    <div class="certificate">
-                        <img src="https://github.com/SeuUsuario/SeuRepositorio/blob/main/imagens/certificate4.jpg?raw=true" alt="Certificate 4">
-                        <h3>Certificado 4</h3>
-                        <p>Descrição do certificado 4.</p>
-                    </div>
-                </div>
-            </section>
-        </main>
-    </div>
-</body>
-</html>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    color: #ffffff;
+}
+
+.container {
+    display: flex;
+}
+
+.sidebar {
+    width: 250px;
+    background-color: #1f1f1f;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.profile {
+    text-align: center;
+}
+
+.profile img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.profile h1 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+#social ul {
+    list-style: none;
+    padding: 0;
+}
+
+#social ul li {
+    margin: 10px 0;
+}
+
+#social ul li a {
+    color: #1e90ff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 20px 0;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+.project-grid, .certificate-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.project, .certificate {
+    background-color: #2a2a2a;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.project img, .certificate img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.project h3, .certificate h3 {
+    margin: 10px 0;
+    font-size: 20px;
+}
+
+.project p, .certificate p {
+    font-size: 16px;
+}
+
+.project-links a {
+    color: #1e90ff;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.project-links a:hover {
+    text-decoration: underline;
+}
+
